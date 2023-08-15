@@ -2727,7 +2727,7 @@ input, select, textarea {
 
 		#header:before {
 			height: calc(100% - 50px);
-			opacity: 0.15;
+			opacity: 0;
 			top: 0;
 		}
 
@@ -2796,7 +2796,7 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #3e323f;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
