@@ -67,13 +67,42 @@
 		        <h2>PROJECTS</h2>
 		    </header>
 
-		    <div class="box alt container">
+			<script>
+				function truncateText(element, maxLength) {
+					const text = element.innerHTML;
+					if (text.length > maxLength) {
+						element.innerHTML = text.slice(0, maxLength) + '... <a href="#" class="read-more">Read More</a>';
+					}
+				}
+			
+				// Call the truncateText function for the project description element
+				const projectDescription = document.querySelector('.project-description');
+				truncateText(projectDescription, 250); // Adjust the maxLength as needed
+			</script>
+			
+
+
+
+
+
+
+
+
+
+
+		    
+			
+			
+			
+			
+			<div class="box alt container">
 		        <section class="feature left">
-		            <a href="#" class="image icon solid fa-signal"><img src="images/pic01.jpg" alt="" /></a>
-		            <div class="content">
-		                <h3>Basic CRUD App</h3>
-		                <p>Crud app description goes here.</p>
-		            </div>
+		            <a href="https://crud-demo-4g6b.onrender.com/" class="image icon solid fa-signal"><img src="images/CRUD.png" alt="" /></a>
+					<div class="content">
+						<h3>Basic CRUD App</h3>
+						<p class="project-description">The basic CRUD (Create, Read, Update, Delete) application I developed is a web-based system that enables users to perform essential operations on a collection of data entities. It is built using a combination of technologies, including a Spring Boot backend for handling data storage and processing, and a front-end interface created with HTML, JavaScript, and jQuery for user interaction. The application provides users with the ability to create new records, retrieve existing records, update record details, and delete records from the underlying data store. I built this application to gain hands-on experience in building a full-stack application, understand the fundamental principles of data management, and improve my proficiency in web development technologies. The CRUD application serves as a foundational project that showcases my ability to design, develop, and deploy interactive web applications with essential data management functionalities..</p>
+					</div>
+					
 		        </section>
 		    </div>
 
