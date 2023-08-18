@@ -2694,6 +2694,7 @@ input, select, textarea {
 				}
 
 			.feature.left .content {
+				padding-top: 0;
 				padding-right: 0;
 			}
 
@@ -2717,6 +2718,31 @@ input, select, textarea {
 		.feature.long .content {
 			padding-top: 0;
 		}
+
+
+		/*styling for the project description*/
+		.project-description { 
+			overflow-y: auto;
+			overflow-x: hidden;
+			max-height: 374px;
+
+		
+
+		}
+
+
+		.feature .content{
+			position: relative;
+		}
+
+		.feature .content .project-title{
+			position:absolute;
+			top: -4.5em;
+			left:50%;
+			transform: translateX(-50%);
+			z-index: 10;
+		}
+
 
 /* Header */
 
